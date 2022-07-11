@@ -2,11 +2,6 @@
 #include <dmem.h>
 #include <cmath>
 
-//DSynapse::nvt DSynapse::act_sigmoid1(nvt x)
-//{
-
-//}
-
 
 DLogs::DLogsContext DSynapse::log_context;
 

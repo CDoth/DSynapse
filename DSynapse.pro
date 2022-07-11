@@ -34,7 +34,8 @@ unix {
 
 
 #======================================================================
-#=================================================================== DTL:
+
+#=================================================================== DTL
 win32: LIBS += -L$$PWD/../DTL/release/ -lDothTemplateLibrary
 
 INCLUDEPATH += $$PWD/../DTL/
@@ -42,7 +43,7 @@ DEPENDPATH += $$PWD/../DTL/
 
 win32:!win32-g++: PRE_TARGETDEPS += $$PWD/../DTL/release/DothTemplateLibrary.lib
 else:win32-g++: PRE_TARGETDEPS += $$PWD/../DTL/release/libDothTemplateLibrary.a
-#=================================================================== DLogs:
+#=================================================================== DLogs
 win32: LIBS += -L$$PWD/../DLogs/release/ -lDLogs
 
 INCLUDEPATH += $$PWD/../DLogs/

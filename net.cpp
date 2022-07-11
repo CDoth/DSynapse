@@ -1573,8 +1573,11 @@ int DSynapse::net_test(DSynapse::NET_P n)
                 DL_FUNCFAIL(1, "forward_prop");
                 break;
             }
+
             printf("input: ");
             net_show_input(n);
+
+            net_restore_out(n);
             printf("output: ");
             net_show_out(n);
             printf("----------------------- net: %p\n", n);
