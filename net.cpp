@@ -621,7 +621,7 @@ int DSynapse::net_set_options(DSynapse::NET_P n, DSynapse::nvt learn_rate, DSyna
 
     return 0;
 }
-int DSynapse::net_set_lateflush_size(DSynapse::NET_P n, int size)
+int DSynapse::net_set_lateflush_freq(DSynapse::NET_P n, int size)
 {
     if(n == NULL) {DL_BADPOINTER(1, "net"); return -1;}
     if(size < 0) {DL_BADVALUE(1, "size: [%d]", size); return -1;}

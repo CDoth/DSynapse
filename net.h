@@ -284,7 +284,7 @@ int net_set_bpf(NET_P n, BACKPROP_FUNCTION bpf);
 int net_set_loss_function(NET_P n, LOSS_FUNCTION_CALLBACK lf);
 int net_set_options(NET_P n, nvt learn_rate, ACTIVATION actf, BACKPROP_FUNCTION bpf, bool use_act_out, nvt input_qr, nvt output_qr);
 int net_set_options(NET_P n, nvt learn_rate, ACTIVATION actf, BACKPROP_FUNCTION bpf, bool use_act_out, data_line input_qr, data_line output_qr);
-int net_set_lateflush_size(NET_P n, int size);
+int net_set_lateflush_freq(NET_P n, int size);
 
 int net_set_default_load(NET_P n, data_line input, data_line target);
 int net_set_custom_load(NET_P n, LOAD_SAMPLE_CALLBACK callback, const void *data);
