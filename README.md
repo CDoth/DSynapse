@@ -169,7 +169,19 @@ In plan
 
 > (Interface and code temporarry unavailable)
 
+## Examples:
 
-## Layers
+Classification task (black points to red space, white to blue):
 
+![Image1](NNImages/Jj_AVLCw2AI.jpg)
+
+![Image5](NNImages/jQSFKbAXnbQ.jpg)
+
+![Image7](NNImages/qmxzglxVkqg.jpg)
+
+Function approximation:
+
+> Top image - simple sircle, bot image - net approximation
+
+![Image7](NNImages/dT50R7f4zl8.jpg)
 
